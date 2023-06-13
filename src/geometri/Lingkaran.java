@@ -2,12 +2,12 @@ package geometri;
 
 public class Lingkaran {
 
-    private double radius;
+    double radius;
 
-    public double Luas(){
+    public double luas(){
         return (3.14 * Math.pow(radius,2));
     }
-    public double Keliling(){
+    public double keliling(){
         return 2 * 3.14 * radius;
     }
 }
